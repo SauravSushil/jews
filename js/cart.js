@@ -20,7 +20,7 @@ let updateSubTotal = () => {
     cart.forEach((item, index) => {
         subtotal += item.total;
     })
-    let subTotalElement = document.getElementsByClassName('amount');
+    let subTotalElement = document.getElementsByClassName('total-amount');
     console.log(subTotalElement);
     for (let index = 0; index < subTotalElement.length; index++)
         subTotalElement[index].innerHTML = '$ ' + subtotal;
