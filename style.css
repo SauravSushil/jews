@@ -234,11 +234,16 @@ body {}
 .header-bottom-area .col-lg-7 .single-header-bottom-info:first-child {
     border-left: medium none;
 }
+.logo-col{
+	display: flex;
+	justify-content: center;
+}
 .logo {
   margin-top: 6px;
 }
 .logo.logo2 {
-  text-align: center;
+  width: 30%;
+  height: 20%;
 }
 .single-header-bottom-info {
   border-left: 1px solid #666666;
